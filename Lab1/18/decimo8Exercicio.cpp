@@ -3,7 +3,7 @@
 
 main(){
 	char nomeCliente[3][60];
-	int diaria[30], quartosHotel = 3;
+	int diaria[30], quartosHotel = 30;
 	
 	setlocale(LC_ALL, "portuguese");
 	
@@ -11,7 +11,7 @@ main(){
 		printf("Insira o nome do cliente para que seja registado: ");
 			scanf("%s", &nomeCliente[i]);
 		
-		printf("Insira a di·ria do cliente: ");
+		printf("Insira a di√°ria do cliente: ");
 			scanf("%d", &diaria[i]);
 	}
 	
