@@ -2,7 +2,7 @@
 #include<locale.h>
 
 main(){
-	char nomeCliente[3][60];
+	char nomeCliente[30][60];
 	int diaria[30], quartosHotel = 30;
 	
 	setlocale(LC_ALL, "portuguese");
